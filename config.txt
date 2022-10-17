@@ -5,15 +5,15 @@
 # 公众号appSecret
 "app_secret": "065c32fda9596454699a78b14517e94f",
 # 模板消息id
-"template_id": "QpB2Yu2mAI7dmzYf0oW_tGToG_7hEwkQ5QbdWzwpqaU",
+"template_id": "SvJz2eO0VYxPjO4PIAnpge9L5eCQCKLJUw4tO4BIIuE",
 # 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-"user": ["oiFdR51qM-bu9tcLg8pZMgTN9lmU", "oiFdR5wBZIbaSm8HqMusNa_almxA"],
+"user": ["oiFdR5wBZIbaSm8HqMusNa_almxA", "oiFdR51qM-bu9tcLg8pZMgTN9lmU"],
  
 # 信息配置
 # 和风天气apikey
 
 
 # 在一起的日子，格式同上，暂不不支持农历
-"love_date": "2022-10-15",
+"love_date": "2022-10-14",
 
 }
