@@ -221,13 +221,13 @@ if __name__ == "__main__":
     users = config["user"]
     # 传入地区获取天气信息
     #region = config["region"]
-    weather, temp, wind_dir = get_weather(region)
-    note_ch = config["note_ch"]
-    note_en = config["note_en"]
-    if note_ch == "" and note_en == "":
+    #weather, temp, wind_dir = get_weather(region)
+   # note_ch = config["note_ch"]
+  #  note_en = config["note_en"]
+  #  if note_ch == "" and note_en == "":
         # 获取词霸每日金句
-        note_ch, note_en = get_ciba()
+  #      note_ch, note_en = get_ciba()
     # 公众号推送消息
     for user in users:
-        send_message(user, accessToken, region, weather, temp, wind_dir, note_ch, note_en)
+        send_message(user, accessToken, weather, temp, wind_dir)
     os.system("pause")
