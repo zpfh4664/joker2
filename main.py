@@ -229,5 +229,5 @@ if __name__ == "__main__":
   #      note_ch, note_en = get_ciba()
     # 公众号推送消息
     for user in users:
-        send_message(user, accessToken, temp, wind_dir)
+        send_message(user, accessToken, wind_dir)
     os.system("pause")
